@@ -4,17 +4,6 @@ CREATE USER projectUser WITH PASSWORD 'Password';
 GRANT ALL PRIVILEGES ON DATABASE midtermProject to projectUser:
 \c midtermProject
 */
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
 INSERT INTO storeLocations VALUES (0,'notHTF00','987 IDK Street','Where','NJ','07102','1234567890');
 INSERT INTO storeLocations VALUES (1,'notHTF01','654 WhoKnows Ave','They,NY','00404','0987654321');
 INSERT INTO storeLocations VALUES (2,'notHFT02','543 WhosOnFirst Street','What','FL','77777','4040001111');
