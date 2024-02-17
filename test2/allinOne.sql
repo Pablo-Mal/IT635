@@ -17,7 +17,6 @@ CREATE TABLE store_locations (
 CREATE TABLE distributors (
 	distributor_id INTEGER NOT NULL,
 	name VARCHAR (20) NOT NULL,
-	name VARCHAR (10) NOT NULL,
 	street VARCHAR (20) NOT NULL,
 	city VARCHAR (20) NOT NULL,
 	stateL VARCHAR (20) NOT NULL,
