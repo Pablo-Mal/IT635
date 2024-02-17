@@ -18,7 +18,7 @@ while True:
     print("how much woudl you like to add/remove?:")
     user_change = int(input())
     
-    print("The new quantity is: (noscript yet just testing)+ (current_count + user_change) )
+    print("The new quantity is: (noscript yet just testing)"+ (current_count + user_change) )
     
 cur.close()
 conn.close()
