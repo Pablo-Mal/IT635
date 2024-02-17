@@ -1,10 +1,10 @@
 CREATE DATABASE midterm_project;
 CREATE USER project_user WITH PASSWORD 'Password';
-GRANT ALL PRIVILEGES ON DATABASE midterm_project to project_user:
+GRANT ALL PRIVILEGES ON DATABASE midterm_project to project_user;
 \c midterm_project
 
 CREATE TABLE store_locations (
-	store_id INTIGER NOT NULL,
+	store_id INTEGER NOT NULL,
 	name VARCHAR (10) NOT NULL,
 	street VARCHAR (20) NOT NULL,
 	city VARCHAR (20) NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE store_locations (
 );
 
 CREATE TABLE distributors (
-	distributor_id INTIGER NOT NULL,
+	distributor_id INTEGER NOT NULL,
 	name VARCHAR (20) NOT NULL,
 	name VARCHAR (10) NOT NULL,
 	street VARCHAR (20) NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE distributors (
 );
 
 CREATE TABLE inventory (
-	inventory_id NOT NULL,
+	inventory_id INTEGER NOT NULL,
 	name VARCHAR (20) NOT NULL,
 	aisle VARCHAR (5) NOT NULL,
 	shelf VARCHAR (5) NOT NULL,
