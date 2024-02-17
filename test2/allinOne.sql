@@ -1,7 +1,7 @@
 CREATE DATABASE midterm_project;
 CREATE USER project_user WITH PASSWORD 'Password';
 GRANT ALL PRIVILEGES ON DATABASE midterm_project to project_user:
-\c midtermProject
+\c midterm_project
 
 CREATE TABLE store_locations (
 	store_id INTIGER NOT NULL,
