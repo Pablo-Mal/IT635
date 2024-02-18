@@ -38,9 +38,3 @@ INSERT INTO master VALUES (2,1,2,68);
 INSERT INTO master VALUES (2,2,0,35);
 INSERT INTO master VALUES (2,2,1,26);
 INSERT INTO master VALUES (2,2,2,24);
-
-/*
-SELECT pg_catalog.setval('public.storeLocations_id_seq',3,true);
-SELECT pg_catalog.setval('public.dustributors_id_seq',3,true);
-SELECT pg_catalog.setval('public.inventory_id_seq',3,true);
-*/
