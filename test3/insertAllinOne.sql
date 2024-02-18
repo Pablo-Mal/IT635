@@ -1,9 +1,3 @@
-/*
-CREATE DATABASE midtermProject;
-CREATE USER projectUser WITH PASSWORD 'Password';
-GRANT ALL PRIVILEGES ON DATABASE midtermProject to projectUser:
-
-*/
 \c midterm_project
 INSERT INTO store_locations VALUES (0,'notHTF00','987 IDK Street','Where','NJ','07102','1234567890');
 INSERT INTO store_locations VALUES (1,'notHTF01','654 WhoKnows Ave','They','NY','00404','0987654321');
