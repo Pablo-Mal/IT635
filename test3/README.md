@@ -1,5 +1,5 @@
--Pablo Maldonado
--Professor: Logan Reyes
+- Pablo Maldonado
+- Professor: Logan Reyes
 - Project Status: Submitted
 
 How to download and execute this project automated and manually.
@@ -25,6 +25,6 @@ Usage:
 ![Screenshot 2024-02-27 190433](https://github.com/Pablo-Mal/IT635/assets/54961754/18c96e77-04d5-4902-8ca0-b5daac905e08)
 
 Files:
-- https://github.com/Pablo-Mal/IT635/blob/main/test3/allinOne.sql
-- https://github.com/Pablo-Mal/IT635/blob/main/test3/checkInv.py
-- https://github.com/Pablo-Mal/IT635/blob/main/test3/insertAllinOne.sql
+- allinOne.sql - https://github.com/Pablo-Mal/IT635/blob/main/test3/allinOne.sql
+- checkInv.py - https://github.com/Pablo-Mal/IT635/blob/main/test3/checkInv.py
+- insertAllinOne.sql - https://github.com/Pablo-Mal/IT635/blob/main/test3/insertAllinOne.sql
