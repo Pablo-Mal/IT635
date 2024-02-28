@@ -28,3 +28,9 @@ Files:
 - allinOne.sql - https://github.com/Pablo-Mal/IT635/blob/main/test3/allinOne.sql
 - checkInv.py - https://github.com/Pablo-Mal/IT635/blob/main/test3/checkInv.py
 - insertAllinOne.sql - https://github.com/Pablo-Mal/IT635/blob/main/test3/insertAllinOne.sql
+
+Tables:
+- store_locations
+- distributors
+- inventory
+- master
